@@ -1,11 +1,11 @@
 #! /bin/bash
 
 # Some shortcuts for different directory listings
-alias ls='ls -hF --color=tty --show-control-chars'                 # classify files in colour
-alias ll='ls -lt'                           # long list
-alias la='ls -A'                            # all but . and ..
-alias lla='ls -ltA'							            # ll & la
-alias l='ls -CF'                            #
+alias ls='ls -hF --color=tty --show-control-chars'  # classify files in colour
+alias ll='ls -lt'           # long list
+alias la='ls -A'            # all but . and ..
+alias lla='ls -ltA'         # ll & la
+alias l='ls -CF'            #
 
 alias cls='clear'
 alias vi='vim'
