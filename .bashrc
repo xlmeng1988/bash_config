@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 # Some shortcuts for different directory listings
 alias ls='ls -hF --color=tty --show-control-chars'  # classify files in colour
