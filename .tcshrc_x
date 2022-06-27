@@ -15,8 +15,7 @@ alias lsd 'ls -p | grep /'      # list directories only
 alias vi 'vim'
 alias st 'source ~/.tcshrc'
 alias vt 'vim ~/.tcshrc'
-alias vtx 'vim ~/.tcshrc_xlmeng'
-alias vncfull 'vncserver -depth 24 -geometry 1212x1001'
+alias vtx 'vim ~/.tcshrc_x'
 #Alias the cd command so that when you change directories, the contents are immediately displayed.
 #alias cd 'cd \!* && ls'
 
@@ -55,5 +54,4 @@ endif
 set autolist
 
 # default PATH
-#setenv PATH /opt/rh/devtoolset-1.1/root/usr/bin:/usr/lib64/qt-3.3/bin:/usr/kerberos/bin:/usr/local/bin:/bin:/usr/bin:/usr/X11R6/bin
 setenv PATH /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin
