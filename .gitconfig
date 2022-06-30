@@ -1,0 +1,18 @@
+[alias]
+  st = status
+  ci = commit
+  cia = commit --amend
+  cian = commit --amend --no-edit
+  co = checkout
+  br = branch
+  bra = branch -av
+  diffw = diff -w --ignore-all-space
+[push]
+  default = simple
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+[core]
+  whitespace = trailing-space

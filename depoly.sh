@@ -26,3 +26,9 @@ if [ -f $vimrc ]; then
   mv $vimrc $vimrc.${timestamp}.bak
 fi
 cp -f .vimrc ${HOME}/
+
+# .gitconfig
+gitcfg=${HOME}/.gitconfig
+if [ ! -f $gitcfg ]; then
+  cp .gitconfig ${HOME}/
+fi
