@@ -16,3 +16,4 @@
   interactive = auto
 [core]
   whitespace = trailing-space
+  editor = vim
