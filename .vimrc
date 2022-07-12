@@ -140,14 +140,14 @@ set smartindent
 " 使用C样式的缩进 
 set cindent 
 
-" 制表符为2 
-set tabstop=2 
+" 制表符为4 
+set tabstop=4 
 
 " 统一缩进为4 
-set softtabstop=2 
-set shiftwidth=2 
+set softtabstop=4 
+set shiftwidth=4
 " 使用空格代替制表符
-set expandtab
+"set expandtab
 
 " 在行和段开始处使用制表符 
 set smarttab 
