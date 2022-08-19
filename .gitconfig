@@ -5,7 +5,7 @@
   cian = commit --amend --no-edit
   co = checkout
   br = branch
-  bra = branch -av
+  bra = branch -avv
   diffw = diff -w --ignore-all-space
 [push]
   default = simple
