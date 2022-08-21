@@ -28,7 +28,4 @@ fi
 cp -f .vimrc ${HOME}/
 
 # .gitconfig
-gitcfg=${HOME}/.gitconfig
-if [ ! -f $gitcfg ]; then
-  cp .gitconfig ${HOME}/
-fi
+bash ./git_config.sh
