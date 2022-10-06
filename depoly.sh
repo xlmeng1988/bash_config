@@ -10,7 +10,7 @@ if [ -f $bashrc ]; then
   cp .bashrc_x ${HOME}/
   echo "source ${HOME}/.bashrc_x" >> $bashrc
 else
-  cp -f .bashrc $bashrc
+  cp -f .bashrc_x $bashrc
 fi
 
 # .inputrc
