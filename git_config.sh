@@ -24,6 +24,8 @@ git config --global push.default simple
 
 # core
 git config --global core.whitespace trailing-space
+git config --global core.whitespace cr-at-eol # ignore Line Feed(\n) difference
+git config --global core.autocrlf input # auto for Windows
 git config --global core.editor vim
 
 # user info
