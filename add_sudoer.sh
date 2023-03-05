@@ -11,7 +11,10 @@ if [ $(id -u) -ne 0 ]; then
 fi
 
 user=$1
-sudo usermod -aG sudo $user
+os=$(lsb_release -is)
+if [ "$os" != "CentOS" ]; then
+	sudo usermod -aG sudo $user
+fi
 sudoer_files=/etc/sudoers.d/$user
 echo "$user ALL=(ALL:ALL) NOPASSWD: ALL
 Defaults editor=/usr/bin/vim" > ${sudoer_files}
