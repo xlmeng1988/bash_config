@@ -51,9 +51,9 @@ xterm*|rxvt*)
 esac
 
 # reloead .inputrc
-if [ -f $HOME/.inputrc ]; then
-	bind -f $HOME/.inputrc
-fi
+#if [ -f $HOME/.inputrc ]; then
+#	bind -f $HOME/.inputrc
+#fi
 
 # grep with corlor
 if [ $GREP_OPTIONS ]; then
